@@ -1,0 +1,41 @@
+
+
+.slider{
+    position: relative;
+    display: grid;
+    overflow: hidden;
+}
+
+.slides{
+    display: flex;
+}
+
+.slide{
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide img{
+    width: 100%;
+    height: auto;
+    position: relative;
+    object-fit: cover;
+}
+
+.chevron{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-prev, .btn-next{
+    font-size: 5em;
+    color: white;
+    cursor: pointer;
+}
